@@ -7,7 +7,7 @@ private:
 	bool rezervata;
 public:
 	Masa(int nr) :numar(nr), rezervata(false) {}
-	void rezervata()
+	void rezerva()
 	{
 		rezervata = true;
 	}

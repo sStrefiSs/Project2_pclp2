@@ -130,6 +130,7 @@
     <ClCompile Include="Masa.cpp" />
     <ClCompile Include="Meniu.cpp" />
     <ClCompile Include="Produs.cpp" />
+    <ClCompile Include="Rezervare.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

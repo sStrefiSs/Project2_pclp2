@@ -24,5 +24,8 @@
     <ClCompile Include="Meniu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Rezervare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
