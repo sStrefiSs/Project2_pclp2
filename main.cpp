@@ -4,6 +4,7 @@
 #include "Eveniment.cpp"
 #include "Client.cpp"
 #include "Masa.cpp"
+#include "Administrator.cpp"
 #include <vector>
 using namespace std;
 int main()
@@ -47,8 +48,15 @@ int main()
 
 	//Adminul
 	Administrator admin;
-
-
+	admin.adaugaProdus(Produs("Vin", 50.0));
+	admin.afiseazaProduse();
+	admin.adaugaEveniment(Eveniment("Gala de caritate", "10-07-2024"));
+	admin.afiseazaEvenimente();
+	for (const auto& reclamatie : reclamatii)
+	{
+		admin.solutioneazaReclamatie(reclamatie);
+	}
+	return 0;
 
 
 }
