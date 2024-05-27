@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Eveniment.cpp" />
     <ClCompile Include="Masa.cpp" />
     <ClCompile Include="Meniu.cpp" />
     <ClCompile Include="Produs.cpp" />
