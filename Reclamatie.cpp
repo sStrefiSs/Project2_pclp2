@@ -1,19 +1,11 @@
-#include <iostream>
-#include <string>
+#include "Reclamatie.h"
 using namespace std;
-class Reclamatie
+Reclamatie::Reclamatie(const string& desc, const string& nume) :descriere(desc), numeClient(nume) {}
+string Reclamatie::getDescriere() const
 {
-private:
-	string descriere;
-	string numeClient;
-public:
-	Reclamatie(string desc, string nume) : descriere(desc), numeClient(nume) {}
-	string getDescriere() const
-	{
-		return descriere;
-	}
-	string getNumeClient() const
-	{
-		return numeClient;
-	}
-};
+	return descriere;
+}
+string Reclamatie::getNumeClient() const
+{
+	return numeClient;
+}
