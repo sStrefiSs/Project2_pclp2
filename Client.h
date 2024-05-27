@@ -19,6 +19,6 @@ public:
 	void adaugaProdusInComanda(const Produs& produs);
 	void vizualizeazaMeniu(const Meniu& meniu) const;
 	void faReclamatie(const string& descriere, vector<Reclamatie>& reclamatii) const;
-	void faRezervare(vector<Masa>& mese, const string numeClient, vector<Rezervare>& rezervari);
+	void faRezervare(vector<Masa>& mese, const string& numeClient, vector<Rezervare>& rezervari);
 };
 #endif // CLIENT_H
