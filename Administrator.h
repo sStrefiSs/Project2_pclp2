@@ -14,7 +14,7 @@ private:
 	vector<Reclamatie> reclamatii;
 public:
 	void adaugaProdus(const Produs& produs);
-	void afiseazaProdus() const;
+	void afiseazaProduse() const;
 	void adaugaEveniment(const Eveniment& eveniment);
 	void afiseazaEvenimente() const;
 	void solutioneazaReclamatie(const Reclamatie& reclamatie);
