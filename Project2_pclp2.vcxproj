@@ -139,10 +139,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Administrator.h" />
+    <ClInclude Include="Eveniment.h" />
     <ClInclude Include="Masa.h" />
     <ClInclude Include="Meniu.h" />
     <ClInclude Include="Produs.h" />
     <ClInclude Include="Reclamatie.h" />
+    <ClInclude Include="Rezervare.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

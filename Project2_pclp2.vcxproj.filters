@@ -59,5 +59,11 @@
     <ClInclude Include="Reclamatie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Eveniment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rezervare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

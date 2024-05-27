@@ -1,21 +1,11 @@
-#include <iostream>
-#include <string>
+#include "Eveniment.h"
 using namespace std;
-class Eveniment
+Eveniment::Eveniment(const string& desc, const string& d) :descriere(desc), data(d) {}
+string Eveniment::getDescriere() const
 {
-private:
-	string descriere;
-	string data;
-public:
-	Eveniment(string desc, string d): descriere(desc), data(d) {}
-	string getDescriere() const
-	{
-		return descriere;
-
-	}
-
-	string getData() const
-	{
-		return data;
-	}
-};
+	return descriere;
+}
+string Eveniment::getData() const
+{
+	return data;
+}
