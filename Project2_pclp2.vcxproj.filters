@@ -18,5 +18,8 @@
     <ClCompile Include="Masa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Produs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
