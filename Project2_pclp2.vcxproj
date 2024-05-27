@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Administrator.cpp" />
     <ClCompile Include="Eveniment.cpp" />
     <ClCompile Include="Masa.cpp" />
     <ClCompile Include="Meniu.cpp" />

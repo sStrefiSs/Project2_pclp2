@@ -14,7 +14,7 @@ public:
 
 	}
 
-	string getDat() const
+	string getData() const
 	{
 		return data;
 	}
