@@ -43,4 +43,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Produs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Masa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

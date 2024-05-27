@@ -1,22 +1,15 @@
-#include <iostream>
+#include "Masa.h"
 using namespace std;
-class Masa
+Masa::Masa(int nr) :numar(nr), rezervata(false) {}
+void Masa::rezerva()
 {
-private:
-	int numar;
-	bool rezervata;
-public:
-	Masa(int nr) :numar(nr), rezervata(false) {}
-	void rezerva()
-	{
-		rezervata = true;
-	}
-	bool esteRezervata() const
-	{
-		return rezervata;
-	}
-	int getNumar() const
-	{
-		return numar;
-	}
-};
+	rezervata = true;
+}
+bool Masa::esteRezervata() const
+{
+	return rezervata;
+}
+int Masa::getNumar() const
+{
+	return numar;
+}

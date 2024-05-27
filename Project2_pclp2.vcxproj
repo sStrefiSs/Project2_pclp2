@@ -137,6 +137,10 @@
     <ClCompile Include="Reclamatie.cpp" />
     <ClCompile Include="Rezervare.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Masa.h" />
+    <ClInclude Include="Produs.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
