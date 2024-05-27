@@ -138,6 +138,7 @@
     <ClCompile Include="Rezervare.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Administrator.h" />
     <ClInclude Include="Masa.h" />
     <ClInclude Include="Meniu.h" />
     <ClInclude Include="Produs.h" />

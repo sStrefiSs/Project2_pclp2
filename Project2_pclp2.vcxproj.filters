@@ -53,5 +53,8 @@
     <ClInclude Include="Meniu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Administrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
