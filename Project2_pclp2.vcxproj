@@ -139,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Administrator.h" />
+    <ClInclude Include="Client.h" />
     <ClInclude Include="Eveniment.h" />
     <ClInclude Include="Masa.h" />
     <ClInclude Include="Meniu.h" />
