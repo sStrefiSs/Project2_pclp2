@@ -7,7 +7,7 @@
 #include "Meniu.h"
 #include "Masa.h"
 #include "Rezervare.h"
-#include "Reclamatie.h"
+#include "Reclamatie1.h"
 using namespace std;
 class Client
 {
@@ -17,7 +17,7 @@ private:
 public:
 	Client(const string& n);
 	void adaugaProdusInComanda(const Produs& produs);
-	void vizualizeazaMeniu(const Meniu& meniu) const;
+	void vizualizeazaMeniu(Meniu& meniu);
 	void faReclamatie(const string& descriere, vector<Reclamatie> reclamatii);
 	void faRezervare(vector<Masa>& mese, const string& numeClient, vector<Rezervare>& rezervari);
 };

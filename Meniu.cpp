@@ -2,7 +2,7 @@
 #include "Produs.h"
 #include <iostream>
 using namespace std;
-void Meniu::adaugaProdus( Produs& produs)
+void Meniu::adaugaProdus(const  Produs& produs)
 {
 	produse.push_back(produs);
 

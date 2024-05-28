@@ -134,7 +134,7 @@
     <ClCompile Include="Meniu.cpp" />
     <ClCompile Include="Produs.cpp" />
     <ClCompile Include="Client.cpp" />
-    <ClCompile Include="Reclamatie.cpp" />
+    <ClCompile Include="Reclamatie1.cpp" />
     <ClCompile Include="Rezervare.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -144,7 +144,7 @@
     <ClInclude Include="Masa.h" />
     <ClInclude Include="Meniu.h" />
     <ClInclude Include="Produs.h" />
-    <ClInclude Include="Reclamatie.h" />
+    <ClInclude Include="Reclamatie1.h" />
     <ClInclude Include="Rezervare.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

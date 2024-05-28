@@ -4,7 +4,7 @@
 #include "Masa.h"
 #include "Rezervare.h"
 #include "Eveniment.h"
-#include "Reclamatie.h"
+#include "Reclamatie1.h"
 #include "Client.h"
 #include "Administrator.h"
 using namespace std;
@@ -36,20 +36,16 @@ int main()
 	Client client("Ion Popescu");
 	//clientul vizualizeaza meniul
 	client.vizualizeazaMeniu(meniu);
+	//declararea vectorului de rezervari
+	vector<Rezervare> rezervari;
 	//clientul face o rezervare
 	client.faRezervare(mese, "Ion Popescu", rezervari);
-	//clientul face o reclamatie
-	client.faReclamatie("Serviciu lent", reclamatie);
 	//Administratorul
 	Administrator admin;
 	admin.adaugaProdus(Produs("Vin", 50));
 	admin.afiseazaProduse();
 	admin.adaugaEveniment(Eveniment("Gala de caritate", "10 - 07 - 2024"));
 	admin.afiseazaEvenimente();
-	for (const auto reclamatie:reclamatii)
-	{
-		admin.solutioneazaReclamatie(reclamatie);
-	}	
 	return 0;
 }
 

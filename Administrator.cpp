@@ -27,10 +27,15 @@ void Administrator::solutioneazaReclamatie(const Reclamatie& reclamatie)
 {
 	cout << "Reclamatie de la " << reclamatie.getNumeClient() << ": " << reclamatie.getDescriere() << " a fost solutionata" << " ";
 }
+void Administrator::adaugaReclamatie(const Reclamatie& reclamatie)
+{
+	reclamatii.push_back(reclamatie);
+}
 void Administrator::afiseazaReclamatii() const
 {
 	for (const auto& reclamatie : reclamatii)
 	{
-		cout << "Reclamatie de la " << reclamatie.getNumeClient() << ": " << reclamatie.getDescriere() < " ";
+		cout << "Reclamatie de la " << reclamatie.getNumeClient() << ": " << reclamatie.getDescriere() << " ";
 	}
+
 }

@@ -4,7 +4,7 @@
 #include <vector>
 #include "Produs.h"
 #include "Eveniment.h"
-#include "Reclamatie.h"
+#include "Reclamatie1.h"
 using namespace std;
 class Administrator
 {
@@ -19,5 +19,6 @@ public:
 	void afiseazaEvenimente() const;
 	void solutioneazaReclamatie(const Reclamatie& reclamatie);
 	void afiseazaReclamatii() const;
+	void adaugaReclamatie(const Reclamatie& reclamatie);
 };
 #endif// ADMINISTRATOR_H
