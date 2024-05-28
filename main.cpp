@@ -31,21 +31,46 @@ int main()
 	vector<Eveniment> evenimente;
 	evenimente.push_back(Eveniment("Concert Jazz", " 05-06-2024"));
 	evenimente.push_back(Eveniment("Seara de stand-up Micutzu", "20-06-2024"));
-
+	//afisarea evenimentelor create
+	cout << "EVENIMENTE PREZENTE: \n";
+	for (const auto& eveniment : evenimente)
+	{
+		cout << "Descriere: " << eveniment.getDescriere() << ", Data: " << eveniment.getData() << "\n";
+	}
+	Administrator admin;
+	cout << endl;
+	cout << "EVENIMENTE NOI: ";
+	admin.adaugaEveniment(Eveniment("Gala de caritate", "10 - 07 - 2024"));
+	cout << endl;
+	admin.afiseazaEvenimente();
+	cout << endl;
+	
+	
 	//creare client
 	Client client("Ion Popescu");
 	//clientul vizualizeaza meniul
+	cout << endl;
+	cout << "MENIUL RESTAURANTULUI: ";
+	cout << endl;
+
 	client.vizualizeazaMeniu(meniu);
 	//declararea vectorului de rezervari
 	vector<Rezervare> rezervari;
-	//clientul face o rezervare
-	client.faRezervare(mese, "Ion Popescu", rezervari);
-	//Administratorul
-	Administrator admin;
+	cout << endl;
+	cout << "PRODUSE NOI:";
 	admin.adaugaProdus(Produs("Vin", 50));
+	cout << endl;
 	admin.afiseazaProduse();
-	admin.adaugaEveniment(Eveniment("Gala de caritate", "10 - 07 - 2024"));
-	admin.afiseazaEvenimente();
+	cout << endl;
+	
+	//clientul face o rezervare
+	cout << endl;
+	client.faRezervare(mese, "Ion Popescu", rezervari);
+	//clientul face o reclamatie
+	vector<Reclamatie> reclamatii;
+	client.faReclamatie("Serviciu lent", reclamatii);
+	cout << endl;
+
 	return 0;
 }
 
