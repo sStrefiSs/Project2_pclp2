@@ -7,9 +7,9 @@ void Administrator::adaugaProdus(const Produs& produs)
 }
 void Administrator::afiseazaProduse() const
 {
-	for (const auto& produs : produse)
+	for (const auto &produs : produse)
 	{
-		cout << "Produs: " << produs.getNume() << ", Pret: " << produs.getPret() << " ";
+		cout << "Produs: "<<produs.getNume() << ", Pret: " << produs.getPret() << " ";
 	}
 }
 void Administrator::adaugaEveniment(const Eveniment& eveniment)

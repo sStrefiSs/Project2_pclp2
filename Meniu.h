@@ -9,8 +9,8 @@ class Meniu
 private:
 	vector<Produs> produse;
 public:
-	void adaugaProdus( const Produs produs);
-	void afiseazaMeniu() const;
+	void adaugaProdus( Produs& produs);
+	void afiseazaMeniu();
 };
 
 #endif // MENIU_H

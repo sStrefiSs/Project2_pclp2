@@ -11,7 +11,7 @@ private:
 	double pret;
 public:
 	Produs(string n, double p);
-	string	getNume() ;
-	double getPret() ;
+	string	getNume()const  ;
+	double getPret() const;
 };
 #endif // PRODUS_H

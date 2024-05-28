@@ -9,7 +9,7 @@ private:
 	string numeClient;
 public:
 	Reclamatie(const string& desc, const string& nume);
-	string getDescriere() const;
+	string getDescriere();
 	string getNumeClient();
 };
 #endif // RECLAMATIE_H

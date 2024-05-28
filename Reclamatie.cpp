@@ -1,7 +1,7 @@
 #include "Reclamatie.h"
 using namespace std;
-Reclamatie::Reclamatie(const string& desc, const string& nume):descriere(desc), numeClient(nume) {}
-string Reclamatie::getDescriere() const
+Reclamatie::Reclamatie(string desc, string nume):descriere(desc), numeClient(nume) {}
+string Reclamatie::getDescriere()
 {
 	return descriere;
 }
