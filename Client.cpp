@@ -9,7 +9,7 @@ void Client::vizualizeazaMeniu(const Meniu& meniu) const
 {
 	meniu.afiseazaMeniu();
 }
-void Client::faReclamatie(const string& descriere, vector<Reclamatie>& reclamatii) const
+void Client::faReclamatie( string& descriere, vector<Reclamatie> reclamatii)
 {
 	Reclamatie reclamatie(descriere, nume);
 	reclamatii.push_back(reclamatie);

@@ -10,7 +10,7 @@ void Meniu::afiseazaMeniu() const
 {
 	for (const auto& produs : produse)
 	{
-		cout << "Produs: " << produs.getNume() << ", Pret: " << produs.getPret() << " ";
+		cout << "Produs: "<< produs.getNume() << ", Pret: " << produs.getPret() << " ";
 	}
 }
 

@@ -10,8 +10,8 @@ private:
 	string nume;
 	double pret;
 public:
-	Produs(string& n, double p);
-	string	getNume() const;
-	double getPret() const;
+	Produs(string n, double p);
+	string	getNume() ;
+	double getPret() ;
 };
 #endif // PRODUS_H
