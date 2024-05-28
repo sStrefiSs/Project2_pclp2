@@ -5,7 +5,7 @@ string Reclamatie::getDescriere() const
 {
 	return descriere;
 }
-string Reclamatie::getNumeClient() const
+string Reclamatie::getNumeClient()
 {
 	return numeClient;
 }

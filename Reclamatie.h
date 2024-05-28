@@ -10,6 +10,6 @@ private:
 public:
 	Reclamatie(const string& desc, const string& nume);
 	string getDescriere() const;
-	string getNumeClient() const;
+	string getNumeClient();
 };
 #endif // RECLAMATIE_H
